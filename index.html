@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huan Ling</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 100%; max-width: 800px; margin: auto; border-spacing: 0; }
+        td { vertical-align: top; padding: 10px; }
+        img.profile { width: 100%; max-width: 100%; }
+        heading { font-size: 24px; font-weight: bold; }
+        papertitle { font-weight: bold; font-size: 16px; }
+        name { font-size: 32px; font-weight: bold; }
+        .aligned-text { text-align: justify; margin: 0 auto; max-width: 800px; }
+    </style>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav style="position: sticky; top: 0; background: white; padding: 15px; text-align: center; border-bottom: 2px solid #ddd; z-index: 1000; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+        <a href="#about" style="margin: 0 15px; text-decoration: none; color: #333; font-weight: 500;">About</a>
+        <a href="#talks" style="margin: 0 15px; text-decoration: none; color: #333; font-weight: 500;">Invited Talks</a>
+        <a href="#open-sourced" style="margin: 0 15px; text-decoration: none; color: #333; font-weight: 500;">Open Sourced Product</a>
+        <a href="#publications" style="margin: 0 15px; text-decoration: none; color: #333; font-weight: 500;">Publications</a>
+        <a href="#experience" style="margin: 0 15px; text-decoration: none; color: #333; font-weight: 500;">Experience</a>
+        <a href="#education" style="margin: 0 15px; text-decoration: none; color: #333; font-weight: 500;">Education</a>
+        <a href="#mentored-interns" style="margin: 0 15px; text-decoration: none; color: #333; font-weight: 500;">Mentored Interns</a>
+        <a href="#pro-bono" style="margin: 0 15px; text-decoration: none; color: #333; font-weight: 500;">Pro Bono</a>
+    </nav>
+
+    <table id="about">
+        <tr>
+            <td style="width: 60%;">
+                <p style="text-align: center;"><name>Huan Ling</name></p>
+                <p class="aligned-text">
+                    I am a Research Manager and Senior Research Scientist at <a href="https://research.nvidia.com/labs/toronto-ai/">NVIDIA Spatial Intelligence (TorontoAI) Lab</a>, leading a group focusing on generative world models.
+                    <br><br>
+                    Our mission is to develop and open-source high-fidelity generative foundation models and tools that enable new forms of generation and interaction for both physical and digital creative content.
+                    <br>
+                </p>
+                <p style="text-align: center;">
+                    Contact me at: linghuan at cs.toronto.edu
+
+                </p>
+                <p style="text-align: center;">
+                    <a href="https://github.com/arieling">
+                        <img src="https://img.icons8.com/doodle/48/000000/github--v1.png" width="24" height="24" style="vertical-align: middle;"> Github
+                    </a> /
+                    <a href="https://scholar.google.com/citations?user=03n03GEAAAAJ&hl=en">
+                        <img src="https://img.icons8.com/?size=100&id=okYCvWotC0uX&format=png&color=000000" width="24" height="24" style="vertical-align: middle;"> Google Scholar
+                    </a> /
+                    <a href="https://x.com/HuanLing6">
+                        <img src="https://img.icons8.com/doodle/48/000000/twitter--v1.png" width="24" height="24" style="vertical-align: middle;"> X
+                    </a>
+
+                </p>
+            </td>
+        <td style="width: 40%;">
+                <img class="profile" src="https://www.cs.toronto.edu/~linghuan/images/self3.png" alt="Huan Ling">
+            </td>
+
+        </tr>
+    </table>
+
+    <table id="talks">
+        <tr><td><heading>Invited Talks</heading></td></tr>
+        <tr><td>
+            <ul>
+                <li><strong>Oct. 2025:</strong> World Foundation Models for Physical AI Applications @ <a href="https://bair.berkeley.edu/">BAIR</a></li>
+
+                <li><strong>June 2025:</strong> Cosmos-Drive-Dreams, Keynote talk @ CVPR'25, 6th Embodied AI Workshop (EAI)</li>
+                <li><strong>Oct. 2023:</strong> See Through the Eyes of Generative Models, UBC</li>
+                <li><strong>July 2023:</strong> Vision generation and perception using Diffusion Models, ByteDance AD Core(<a href="https://docs.google.com/presentation/d/1RC6Ojz2PSFkBAKIGhZzW_k8gX86LNhf6asZyS_vfhUA/edit?usp=sharing">Slides</a>)</li>
+                <li><strong>June 2023:</strong> Image, Video and 3D Content Creation with Diffusion Models, BAAI 2023 (<a href="https://drive.google.com/file/d/1j94HYm0LXbk_tWm6M4oQP-h3LSmW2KuH/view?usp=sharing">Slides</a>)</li>
+                <li><strong>June 2023:</strong> Align your Latents: VideoLDM, Shanghai AI Lab (<a href="https://drive.google.com/file/d/1bi_ydvmN2wwjt5SCk5pLqCdKlL7wbz3U/view?usp=sharing">Slides</a>)</li>
+                <li><strong>July 2021:</strong> GANs for 2D Vision Perception, Walmart CV Conf (<a href="https://drive.google.com/file/d/12XxaHzSlLujU53wIRjbiSyxTyS_VttDR/view?usp=sharing">Slides</a>)</li>
+
+                <li><strong>June 2021:</strong> GANs for 2D Vision Perception, IIIS, Tsinghua University (<a href="https://drive.google.com/file/d/12XxaHzSlLujU53wIRjbiSyxTyS_VttDR/view?usp=sharing">Slides</a>)</li>
+
+            </ul>
+        </td></tr>
+    </table>
+
+    <table id="open-sourced">
+        <tr><td><heading>Open Sourced Product</heading></td></tr>
+        <tr><td>
+            <p class="aligned-text">
+                Open-sourced world foundation models and tools.
+            </p>
+        </td></tr>
+    </table>
+
+    <table id="opensource-pubs" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="https://zhangjiewu.github.io/assets/img/publication_preview/chronoedit.gif" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://research.nvidia.com/labs/toronto-ai/chronoedit/">
+      <papertitle>ChronoEdit: Towards Temporal Reasoning for Image Editing and World Simulation</papertitle>
+    </a><br>
+Jay Zhangjie Wu*, Xuanchi Ren*, Tianchang Shen, Tianshi Cao, Kai He, Yifan Lu, Ruiyuan Gao, Enze Xie, Shiyi Lan, Jose M. Alvarez, Jun Gao, Sanja Fidler, Zian Wang, <strong>Huan Ling*</strong><br> <i>(*: equally contributed) </i>
+    <br>             <em>Technical Report</em>, 2025<br>
+    <a href="https://research.nvidia.com/labs/toronto-ai/chronoedit/">project page</a> /
+    <a href="https://github.com/nv-tlabs/ChronoEdit">code</a>
+    <p align="justify">A framework for temporal reasoning that enables advanced image editing and world simulation through understanding time-based relationships.</p>
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/drive_dreams.gif" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://research.nvidia.com/labs/toronto-ai/cosmos_drive_dreams/">
+      <papertitle>Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models</papertitle>
+    </a><br>
+
+Xuanchi Ren*,
+Yifan Lu*,
+Tianshi Cao*,
+Ruiyuan Gao*,
+Shengyu Huang,
+Amirmojtaba Sabour,
+Tianchang Shen,
+Tobias Pfaff,
+Jay Zhangjie Wu,
+Runjian Chen,
+Seung Wook Kim,
+Jun Gao,
+Laura Leal-Taixe,
+Mike Chen, <br>
+Sanja Fidler, <strong>Huan Ling</strong><br> <i>(*: equally contributed) </i>
+    <br>             <em>White Paper</em>, 2025<br>
+
+    <a href="https://research.nvidia.com/labs/toronto-ai/cosmos_drive_dreams/">project page</a> /
+    <a href="https://github.com/nv-tlabs/Cosmos-Drive-Dreams">Code</a>
+
+    <p align="justify">A world model based synthetic data generation (SDG) pipeline designed to enhance downstream tasks for autonomous vehicles.</p>
+
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/cosmos-transfer.gif" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://arxiv.org/pdf/2503.14492">
+      <papertitle>Cosmos-Transfer1: Conditional World Generation with Adaptive Multimodal Control</papertitle>
+    </a><br>
+    Leading the autonomous driving post-training research, data curation, model training and evaluation<br>
+    <em>White Paper</em>, 2025<br>
+    <a href="https://research.nvidia.com/labs/dir/cosmos-transfer1/">website</a> /
+    <a href="https://github.com/nvidia-cosmos/cosmos-transfer1">code</a> /
+    <a href="https://arxiv.org/pdf/2503.14492">white paper</a>
+    <p align="justify">Large-scale multimodal control for conditional world generation.</p>
+  </td>
+</tr>
+
+<tr><td colspan="2"><hr></td></tr>
+<tr>
+    <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+        <img src="images/cosmos.gif" width="100%">
+    </td>
+    <td style="padding:10px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2501.03575">
+            <papertitle>COSMOS: NVIDIA Physical AI World Foundation Model</papertitle>
+        </a>
+        <br>
+        Core contributor. My contributions include data curation, large scale base model training, and leading self-driving autonomous driving post-training. <br>
+        <em>White Paper</em>, 2025<br>
+        <a href="https://www.nvidia.com/en-us/ai/cosmos/">website</a> /
+        <a href="https://github.com/NVIDIA/Cosmos">code</a> /
+        <a href="https://arxiv.org/abs/2501.03575">white paper</a> /
+        <a href="https://www.youtube.com/watch?v=9Uch931cDx8">video</a> /
+        <a href="https://www.youtube.com/live/k82RwXqZHY8?t=3303s">  Jensen Huang Keynote at CES 2025</a>
+        <p align="justify">NVIDIA's Cosmos product and open-source models.</p>
+              <p>Media: <a href="https://www.youtube.com/watch?v=QhA2CH6Z-v4&ab_channel=TwoMinutePapers">
+  <img src="https://img.icons8.com/doodle/48/000000/youtube--v1.png" width=30 height=30> Two Minute Papers; <a href="https://36kr.com/p/3113906003595009">机器之心 </a>
+</a></p>
+
+    </td>
+</tr>
+
+        </tbody>
+    </table>
+
+    <table id="publications">
+        <tr><td><heading>Selected Publications</heading></td></tr>
+        <tr><td>
+            <p class="aligned-text">
+               Full list at <a href="https://scholar.google.com/citations?user=03n03GEAAAAJ&hl=en">Google Scholar</a>.
+            </p>
+        </td></tr>
+    </table>
+
+
+
+
+    <table id="pubs" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+
+        <tbody>
+        
+
+
+
+        <tr><td colspan="2"><h4>Generative Models:</h4></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="https://zgojcic.github.io/assets/lyra_compressed.gif" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://research.nvidia.com/labs/toronto-ai/lyra/">
+      <papertitle>Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation</papertitle>
+    </a><br>
+    Sherwin Bahmani, Tianchang Shen, Jiawei Ren, Jiahui Huang, Yifeng Jiang, Haithem Turki, Andrea Tagliasacchi, David B. Lindell, Zan Gojcic, Sanja Fidler, <strong>Huan Ling</strong>, Jun Gao*, Xuanchi Ren*<br>
+    <i>(*: equally contributed)</i><br>
+    <em>ArXiv</em>, 2025<br>
+    <a href="https://research.nvidia.com/labs/toronto-ai/lyra/">project page</a> /
+    <a href="https://arxiv.org/abs/2509.19296">paper</a> /
+    <a href="https://github.com/nv-tlabs/Lyra">code</a>
+    <p align="justify">A generative 3D scene reconstruction method that uses video diffusion model self-distillation to create high-quality 3D representations.</p>
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/difix3d.gif" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://arxiv.org/abs/2503.01774">
+      <papertitle>Difix3D+: Improving 3D Reconstructions with Single-Step Diffusion Models</papertitle>
+    </a><br>
+    Jay Zhangjie Wu*, Yuxuan Zhang*, Haithem Turki, Xuanchi Ren, Jun Gao, Mike Zheng Shou, Sanja Fidler, Zan Gojcjc^, <strong>Huan Ling^</strong><br> <i>(*, ^: equally contributed) </i>
+    <br>
+    <em>CVPR</em>, 2025  <mark><strong>(Oral & Best Paper Nomination)</strong> </mark><br>
+    <a href="https://research.nvidia.com/labs/toronto-ai/difix3d/">project page</a> /
+    <a href="https://arxiv.org/abs/2503.01774">paper</a> /
+    <a href="https://github.com/nv-tlabs/Difix3D">Code</a>
+
+    <p align="justify">Enhancing 3D reconstructions and novel-view synthesis via single step diffusion inference.</p>
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/diffusion_render.gif" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://arxiv.org/abs/2501.18590">
+      <papertitle>DiffusionRenderer: Neural Inverse and Forward Rendering with Video Diffusion Models</papertitle>
+    </a><br>
+    Ruofan Liang*, Zan Gojcic,  <strong>Huan Ling</strong>, Jacob Munkberg, Jon Hasselgren, Zhi-Hao Lin, Jun Gao, Alexander Keller, Nandita Vijaykumar, Sanja Fidler, Zian Wang*<br> <i>(* : equally contributed) </i>
+    <br>
+    <em>CVPR</em>, 2025  <mark><strong>(Oral)</strong></mark><br>
+        <a href="https://research.nvidia.com/labs/toronto-ai/DiffusionRenderer/">project page</a> /
+    <a href="https://arxiv.org/abs/2501.18590">paper</a>
+    <p align="justify">A neural approach that addresses the dual problem of inverse and forward rendering within a holistic framework.</p>
+  </td>
+</tr>
+
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/gen3c.gif" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://arxiv.org/abs/2503.03751">
+      <papertitle>Gen3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control</papertitle>
+    </a><br>
+    Xuanchi Ren *, Tianchang Shen *, Jiahui Huang, <strong>Huan Ling</strong>, Yifan Lu, Merlin Nimier-David, Thomas Müller, Alexander Keller, Sanja Fidler, Jun Gao<br> <i>(* : equally contributed) </i>
+    <br>
+    <em>CVPR</em>, 2025 <mark><strong>(Highlight)</strong></mark><br>
+    <a href="https://xuanchiren.com/publication/ren-2025-gen3c/">project page</a> /
+    <a href="https://arxiv.org/abs/2503.03751">paper</a>
+    <p align="justify">A generative video model with precise Camera Control and temporal 3D Consistency with a 3D cache</p>
+
+        <p>Media: <a href="https://www.youtube.com/watch?v=ai72aAA0dWo">
+      <img src="https://img.icons8.com/doodle/48/000000/youtube--v1.png" width=30 height=30> Two Minute Papers
+    </a></p>
+
+  </td>
+</tr>
+
+
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/l4gm.gif" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://research.nvidia.com/labs/toronto-ai/l4gm/">
+      <papertitle>L4GM: Large 4D Gaussian Reconstruction Model</papertitle>
+    </a><br>
+    Jiawei Ren, Kevin Xie, Ashkan Mirzaei, Hanxue Liang, Xiaohui Zeng, Karsten Kreis, Ziwei Liu, Antonio Torralba, Sanja Fidler, Seung Wook Kim, <strong>Huan Ling</strong><br>
+    <em>NeurIPS</em>, 2024<br>
+    <a href="https://research.nvidia.com/labs/toronto-ai/l4gm/">project page</a>
+    <p align="justify">A scalable and expressive framework for high-quality dynamic 3D scene reconstruction.</p>
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/ayg.gif" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://research.nvidia.com/labs/toronto-ai/AlignYourGaussians/">
+      <papertitle>Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models</papertitle>
+    </a><br>
+    <strong>Huan Ling*</strong>, Seung Wook Kim*, Antonio Torralba, Sanja Fidler, Karsten Kreis<br>
+    <i>(* : equally contributed)</i><br>
+    <em>CVPR</em>, 2024 <mark><strong>(Highlight)</strong></mark><br>
+    <a href="https://research.nvidia.com/labs/toronto-ai/AlignYourGaussians/">project page</a>
+    <p align="justify">We propose a framework that aligns dynamic 3D Gaussians with text-driven 4D generations.</p>
+  </td>
+</tr>
+
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/videoLDM.gif" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://research.nvidia.com/labs/toronto-ai/VideoLDM/">
+      <papertitle>Align Your Latents: High-Resolution Video Synthesis with Latent Diffusion Models</papertitle>
+    </a><br>
+    Andreas Blattmann*, Robin Rombach*, <strong>Huan Ling*</strong>, Tim Dockhorn*, Seung Wook Kim, Sanja Fidler, Karsten Kreis<br>
+    <i>(* : equally contributed)</i><br>
+    <em>CVPR</em>, 2023<br>
+    <a href="https://research.nvidia.com/labs/toronto-ai/VideoLDM/">project page</a> <br>
+    <p align="justify">We present a latent diffusion framework for high-resolution video synthesis. A follow-up open sourced model, Stable Video Diffusion (SVD), is available at <a href="https://huggingface.co/stabilityai/stable-video-diffusion-img2vid">huggingface</a>, featuring enhanced datasets and fine-tuned results.</p>
+    <p>Media: <a href="https://www.youtube.com/watch?v=3A3OuTdsPEk&ab_channel=TwoMinutePapers">
+      <img src="https://img.icons8.com/doodle/48/000000/youtube--v1.png" width=30 height=30> Two Minute Papers
+    </a></p>
+  </td>
+</tr>
+
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/editGAN.gif" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://nv-tlabs.github.io/editGAN/">
+      <papertitle>EditGAN: High-Precision Semantic Image Editing</papertitle>
+    </a><br>
+    <strong>Huan Ling*</strong>, Karsten Kreis*, Daiqing Li, Seung Wook Kim, Antonio Torralba, Sanja Fidler<br>
+    <i>(* : equally contributed)</i><br>
+    <em>NeurIPS</em>, 2021<br>
+    <a href="https://nv-tlabs.github.io/editGAN/">project page</a> /
+    <a href="https://github.com/nv-tlabs/editGAN_release">code & demo</a><br>
+    <p align="justify">EditGAN enables fine-grained and high-quality semantic edits to images by directly manipulating the latent space of GANs with explicit control over object-level attributes.</p>
+    <p>Media: <a href="https://www.youtube.com/watch?v=cS4jCvzey-4&ab_channel=TwoMinutePapers">
+      <img src="https://img.icons8.com/doodle/48/000000/youtube--v1.png" width=30 height=30> Two Minute Papers
+    </a></p>
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr><td colspan="2"><h4>Generative Representation Learning:</h4></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/DiffTection.png" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://research.nvidia.com/labs/toronto-ai/3difftection/">
+      <papertitle>3DiffTection: 3D Object Detection with Geometry-Aware Diffusion Features</papertitle>
+    </a><br>
+    Chenfeng Xu, <strong>Huan Ling</strong>, Sanja Fidler, Or Litany<br>
+    <em>ICCV</em>, 2023<br>
+    <a href="https://research.nvidia.com/labs/toronto-ai/3difftection/">project page</a>
+    <p align="justify">A novel 3D object detection approach that leverages geometry-aware features derived from diffusion models for more robust 3D understanding.</p>
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/dreamteacher.png" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://research.nvidia.com/labs/toronto-ai/DreamTeacher/">
+      <papertitle>DreamTeacher: Pretraining Image Backbones with Deep Generative Models</papertitle>
+    </a><br>
+    Daiqing Li*, <strong>Huan Ling*</strong>, Amlan Kar, David Acuna, Seung Wook Kim, Karsten Kreis, Antonio Torralba, Sanja Fidler<br>
+    <i>(* : equally contributed)</i><br>
+    <em>ICCV</em>, 2023<br>
+    <a href="https://research.nvidia.com/labs/toronto-ai/DreamTeacher/">project page</a>
+    <p align="justify">We propose a self-supervised pretraining framework that uses generative models to supervise image encoders without requiring labeled data.</p>
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/bigDatasetGAN.png" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://nv-tlabs.github.io/big-datasetgan/">
+      <papertitle>BigDatasetGAN: Synthesizing ImageNet with Pixel-wise Annotations</papertitle>
+    </a><br>
+    Daiqing Li, <strong>Huan Ling</strong>, Seung Wook Kim, Karsten Kreis, Adela Barriuso, Sanja Fidler, Antonio Torralba<br>
+    <em>CVPR</em>, 2022<br>
+    <a href="https://nv-tlabs.github.io/big-datasetgan/">project page</a> /
+    <a href="https://github.com/nv-tlabs/bigdatasetgan_code">code & demo</a>
+    <p align="justify">We extend DatasetGAN to synthesize large-scale datasets like ImageNet with dense pixel-wise annotations, significantly reducing the manual labeling burden.</p>
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/datasetGAN.png" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://nv-tlabs.github.io/datasetGAN/">
+      <papertitle>DatasetGAN: Efficient Labeled Data Factory with Minimal Human Effort</papertitle>
+    </a><br>
+    Yuxuan Zhang*, <strong>Huan Ling*</strong>, Jun Gao, Kangxue Yin, Jean-Francois Lafleche, Adela Barriuso, Antonio Torralba, Sanja Fidler<br>
+    <i>(* : equally contributed)</i><br>
+    <em>CVPR</em>, 2021<br>
+    <a href="https://nv-tlabs.github.io/datasetGAN/">project page</a> /
+    <a href="https://github.com/nv-tlabs/datasetGAN_release/">code & data</a>
+    <p align="justify">DatasetGAN leverages the rich latent space of GANs to synthesize annotated datasets with minimal human effort, enabling pixel-level labeling from a few examples.</p>
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/maskVAE.gif" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="http://www.cs.toronto.edu/~linghuan/vae_mask/">
+      <papertitle>Variational Amodal Object Completion</papertitle>
+    </a><br>
+    <strong>Huan Ling*</strong>, David Acuna, Karsten Kreis, Seung Wook Kim, Sanja Fidler<br>
+    <i>(* : equally contributed)</i><br>
+    <em>NeurIPS</em>, 2020<br>
+    <a href="http://www.cs.toronto.edu/~linghuan/vae_mask/">project page</a>
+    <p align="justify">We introduce a variational framework for completing partially occluded objects, producing plausible and diverse amodal completions for scene understanding.</p>
+  </td>
+</tr>
+
+<tr><td colspan="2"><hr></td></tr>
+
+<tr><td colspan="2"><h4>3D Vision:</h4></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/ganverse3d.png" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://nv-tlabs.github.io/GANverse3D/">
+      <papertitle>Image GANs Meet Differentiable Rendering for Inverse Graphics and Interpretable 3D Neural Rendering</papertitle>
+    </a><br>
+    Yuxuan Zhang*, Wenzheng Chen*, <strong>Huan Ling</strong>, Yinan Zhang, Sanja Fidler<br>
+    <i>(* : equally contributed)</i><br>
+    <em>ICLR</em>, 2021<br>
+    <a href="https://arxiv.org/pdf/2010.09125.pdf">paper</a> /
+    <a href="https://nv-tlabs.github.io/GANverse3D/">project page</a><br>
+    Media:
+    <a href="https://www.youtube.com/watch?v=0PQnrnUIBlU&ab_channel=NVIDIA">
+      <img src="https://img.icons8.com/doodle/48/000000/youtube--v1.png" width=30 height=30> GANverse3D
+    </a>
+    <p align="justify">We unify GANs and differentiable rendering for interpretable 3D reconstruction and inverse graphics from single images using GAN priors and neural rendering techniques.</p>
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/d-render.png" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://nv-tlabs.github.io/DIB-R/">
+      <papertitle>Learning to Predict 3D Objects with an Interpolation-based Differentiable Renderer</papertitle>
+    </a><br>
+    Wenzheng Chen, Jun Gao*, <strong>Huan Ling*</strong>, Edward J. Smith*, Jaakko Lehtinen, Alec Jacobson, Sanja Fidler<br>
+    <i>(* : equally contributed)</i><br>
+    <em>NeurIPS</em>, 2019<br>
+    <a href="https://arxiv.org/pdf/1908.01210.pdf">paper</a> /
+    <a href="https://nv-tlabs.github.io/DIB-R/">project page</a><br>
+    Media:
+    <a href="https://www.youtube.com/watch?v=548sCh0mMRc">
+      <img src="https://img.icons8.com/doodle/48/000000/youtube--v1.png" width=30 height=30> Two-minute paper
+    </a>
+    <p align="justify">We propose DIB-R, a differentiable renderer that enables training of 3D object predictors end-to-end with supervision from 2D images alone.</p>
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr><td colspan="2"><h4>Interactive Annotation:</h4></td></tr>
+
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/scribble.png" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="http://www.cs.toronto.edu/~linghuan/scribblebox/">
+      <papertitle>ScribbleBox: Interactive Annotation Framework for Video Object Segmentation</papertitle>
+    </a><br>
+    Bowen Chen*, <strong>Huan Ling*</strong>, Jun Gao, Xiaohui Zeng, Ziyue Xu, Sanja Fidler<br>
+    <i>(* : equally contributed)</i><br>
+    <em>ECCV</em>, 2020<br>
+    <a href="https://arxiv.org/abs/2008.09721">paper</a> /
+    <a href="http://www.cs.toronto.edu/~linghuan/scribblebox/">project page</a>
+    <p align="justify">ScribbleBox is a practical system that allows users to quickly annotate video object segmentations with scribbles, enabling high-quality masks with minimal effort.</p>
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/curve.png" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://github.com/fidler-lab/curve-gcn">
+      <papertitle>Fast Interactive Object Annotation with Curve-GCN</papertitle>
+    </a><br>
+    <strong>Huan Ling*</strong>, Jun Gao*, Amlan Kar, Wenzheng Chen, Sanja Fidler<br>
+    <i>(* : equally contributed)</i><br>
+    <em>CVPR</em>, 2019<br>
+    <a href="https://arxiv.org/pdf/1903.06874.pdf">paper</a> /
+    <a href="https://github.com/fidler-lab/curve-gcn">code</a>
+    <p align="justify">We introduce Curve-GCN, a real-time annotation tool that models object contours as closed curves and uses graph convolution to refine annotations interactively.</p>
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/poly.png" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="https://arxiv.org/abs/1803.09693">
+      <papertitle>Efficient Interactive Annotation of Segmentation Datasets with Polygon-RNN++</papertitle>
+    </a><br>
+    David Acuna*, <strong>Huan Ling*</strong>, Amlan Kar*, Sanja Fidler<br>
+    <i>(* : equally contributed)</i><br>
+    <em>CVPR</em>, 2018<br>
+    <a href="https://www.youtube.com/watch?v=evGqMnL4P3E">demo video</a> /
+    <a href="https://arxiv.org/abs/1803.09693">paper</a>
+    <p align="justify">Polygon-RNN++ is an annotation system that speeds up segmentation mask creation by predicting object boundaries with minimal clicks via recurrent polygon prediction.</p>
+  </td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+
+<tr><td colspan="2"><h4> <em>Fun note from year 2023:</em> Yes, we took a bite of RLHF back in 2017 :)</h4></td></tr>
+
+
+<tr>
+  <td style="padding:10px;width:23%;vertical-align:middle;height:160px">
+    <img src="images/amt3.png" width="100%">
+  </td>
+  <td style="padding:10px;width:75%;vertical-align:middle">
+    <a href="http://www.cs.utoronto.ca/~linghuan/feedbackImageCaption/">
+      <papertitle>Teaching Machines to Describe Images with Natural Language Feedback</papertitle>
+    </a><br>
+    <strong>Huan Ling</strong>, Sanja Fidler<br>
+    <em>NeurIPS</em>, 2017<br>
+    <a href="http://www.cs.utoronto.ca/~linghuan/feedbackImageCaption/">project page</a> /
+    <a href="https://arxiv.org/abs/1706.00130">paper</a>
+    <p align="justify">We introduce an early reinforcement learning with human feedback (RLHF) approach for image captioning, where a model learns to improve descriptions through natural language feedback rather than numerical rewards.</p>
+  </td>
+</tr>
+
+
+
+        </tbody>
+    </table>
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10" id="experience">
+                <tbody>
+                <tr>
+                    <td>
+                        <heading>Experience</heading>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <table width="100%" align="center" border="0" cellpadding="10">
+                <tbody><tr>
+                    <td>
+                      <br>
+                      Research Manager at <a href="https://nv-tlabs.github.io/">NVIDIA</a>
+                      <span style="float:right;">July 2025 - Present</span>
+                      <br>
+                      <br>
+                        Senior Research Scientist at <a href="https://nv-tlabs.github.io/">NVIDIA</a>
+                        <span style="float:right;">Mar. 2025 - July 2025</span>
+                        <br>
+                        <br>
+                        Research Scientist at <a href="https://nv-tlabs.github.io/">NVIDIA</a>
+                        <span style="float:right;">Jan. 2020 - Mar. 2025</span>
+                        <br>
+                        <br>
+                        Research Intern at <a href="https://nv-tlabs.github.io/">NVIDIA</a>
+                        <span style="float:right;">Sep. 2018 - Dec. 2019</span>
+                        <br>
+
+
+                    </td>
+                </tr>
+            </tbody></table>
+
+<br><br>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10" id="education">
+                <tbody>
+                <tr>
+                    <td>
+                        <heading>Education</heading>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <table width="100%" align="center" border="0" cellpadding="10">
+                <tbody><tr>
+                    <td>
+                      <br>
+                      <a href="https://www.utoronto.ca/">University of Toronto</a>
+                      <span style="float:right;">2021 - 2024</span>
+                      <br>
+                      Doctor of Philosophy - PhD
+                      <br>
+                      <br>
+                      <a href="https://www.utoronto.ca/">University of Toronto</a>
+                      <span style="float:right;">2018 - 2020</span>
+                      <br>
+                      Master of Science - MS, Artificial Intelligence
+                      <br>
+                      <br>
+                      <a href="https://www.utoronto.ca/">University of Toronto</a>
+                      <span style="float:right;">2014 - 2018</span>
+                      <br>
+                      Bachelor's degree, Computer Science
+                      <br>
+                    </td>
+                </tr>
+            </tbody></table>
+
+<br><br>
+
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10" id="mentored-interns">
+                <tbody>
+                <tr>
+                    <td>
+                        <heading>Mentored Interns</heading>
+                        <br>
+                        I’m incredibly proud to work alongside world-class students and interns at the Toronto AI Lab. <br>
+                        We recruit PhD interns year-round - usually we send offers from Sep to Dec — feel free to reach out if you're interested in joining us.
+                    </td>
+
+                </tr>
+                </tbody>
+
+                </table>
+
+                <table width="100%" align="center" border="0" cellpadding="10">
+                    <tbody><tr>
+                        <td>
+
+
+                          <br>
+                          <a href="https://sherwinbahmani.github.io/"> Sherwin Bahmani </a>, CS Ph.D. student at University of Toronto
+                           <br>
+                          <a href="https://www.rjchen.site/"> Runjian Chen </a>, CS Ph.D. student at University of Hong Kong and HKU-MMLab
+                           <br>
+                           <a href="https://jiawei-ren.github.io/"> Jiawei Ren </a>, CS Ph.D. student at MMLab@NTU
+                           <br>
+                           <a href="https://zhangjiewu.github.io/"> Jay Zhangjie Wu </a>, CS Ph.D. student at Show Lab, National University of Singapore
+                           <br>
+                           <a href="https://www.chenfengx.com/"> Chenfeng Xu </a>, CS Ph.D. student at UC Berkeley
+                           <br>
+                           <a href="https://www.alexyuxuanzhang.com/"> Yuxuan Zhang </a>, CS Ph.D. student at Princeton University
+                           <br>
+                           <a href="https://scholar.google.com/citations?user=Mjo50BoAAAAJ&hl=en"> Bowen Chen </a>, CS undergrad student at University of Toronto
+
+                        </td>
+                    </tr>
+                </tbody></table>
+
+
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                <tbody>
+                <tr>
+                    <td>
+                        <heading id="pro-bono">Pro Bono Office Hours</heading>
+                    </td>
+                </tr>
+                </tbody>
+
+                </table>
+
+                <table width="100%" align="center" border="0" cellpadding="10">
+                    <tbody><tr>
+                        <td>
+                            I recognize the information asymmetry between junior and senior students regarding research topics, career directions, and navigating the challenges and excitement of research. This problem is more severe for people from underrepresented groups.
+                            <br>
+                            <br>
+                           Following <a href="https://krrish94.github.io/">Krishna</a>, <a href="https://people.csail.mit.edu/weichium/">Wei-Chiu</a>, <a href="https://elliottwu.com/">Shangzhe</a> and <a href="https://www.cs.toronto.edu/~jungao/">Jun</a>, I decide to commit 1 hour per week to host free pro bono office hours to help reduce the information asymmetry mentioned above. Please send me an email if you are interested.
+                        </td>
+                    </tr>
+                </tbody></table>
+<br><br>
+
+                <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <tbody>
+                    <tr>
+                        <td style="padding:0px">
+                            <br>
+                            <p style="text-align:right;font-size:small;">
+                                I borrowed the template from <a href="https://jonbarron.info/">✩</a>, <a href="http://www.cs.toronto.edu/~wenzheng/">✩</a>,<a href="http://www.cs.toronto.edu/~zianwang/">✩</a>,<a href="http://www.cs.toronto.edu/~shenti11/">✩</a>.
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+
+<br><br><br><br>
+</body>
+</html>
